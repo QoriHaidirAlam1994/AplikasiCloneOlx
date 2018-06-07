@@ -20,6 +20,10 @@ atau
 $ react-native run-ios
 ```
 
+## Video cara kerja aplikasi
+
+bisa dilihat didalam folder aplikasi OLX Clone
+
 ## Fitur yang di harus diinstall
 
 install Axios
