@@ -1,48 +1,64 @@
-# React Native Olx Andro
+# OLX clone app
+Olx Clone is a clone app of https://www.olx.co.id/. It use React Native as the frontend and Django as the Backend. I am working this app at https://dumbways.id and https://arkademy.com Bootcamp class. Feels free to contribute to make this app better.
 
-Aplikasi Clone OLX yang saya buat menggunakan React Native 
+![gif](https://github.com/QoriHaidirAlam1994/AplikasiCloneOlx/blob/master/aplikasi%20OLX%20Clone/aplikasiOlx.gif)
+![gif](https://github.com/QoriHaidirAlam1994/AplikasiCloneOlx/blob/master/aplikasi%20OLX%20Clone/aplikasiOlx2.gif)
 
-## Install melalui Github
-
-buka terminal terlebih dahulu, dan ketik seperti dibawah ini
+## Install via Terminal
+open the terminal first, and type as below
 ```
-$ git clone https://github.com/QoriHaidirAlam1994/AplikasiCloneOlx.git namaProject
-$ cd namaProject
+$ git clone https://github.com/QoriHaidirAlam1994/AplikasiCloneOlx.git yourappname
+$ cd yourappname
 $ npm install
 ```
+## Technology
 
-## Menjalankan aplikasi dengan terminal
+1. React Native as Frontend
+2. Django as Backend
 
-buka terlebih dahulu terminal , kemudian jalankan terminal seperti dibawah ini
+## Running an application with a terminal
+open the terminal first, then run the terminal as below
 ```
 $ react-native run-android
-atau
+or
 $ react-native run-ios
 ```
+## Features that must be installed
+1. Products List
+2. Product Detail
+3. once installed it will be able to run redux used to call the database by using Django python
 
-## Video cara kerja aplikasi
+## Database API
 
-bisa dilihat didalam folder aplikasi OLX Clone
+the database folder contains the django python source code
 
-## Fitur yang di harus diinstall
+run it using virtual env
+then activate the virtual env
+after that go into the database folder
+then run it by way of python manage.py runserver
 
-install Axios
-install Native Base
-install react native swiper
-install react redux
-install react redux logger
-install redux-promise-middleware
+**Mobile Frontend (React Native):**
 
-setelah diinstall maka akan bisa dijalankan redux yang digunakan untuk memanggil database dengan menggunakan python Django
+Make sure you already installed React Native and have emulator or real device running. If not visit this page https://facebook.github.io/react-native/docs/getting-started.html
+```
+$ cd olx-clone/olx-app
+$ npm install
+$ npm start
+```
 
-## Database
+## Screenshot
+.                          |  .                        |  .                        |  .  
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![screenshots1](https://image.ibb.co/mrM0V8/photo6107064271230838729.jpg)  |  ![screenshots2](https://image.ibb.co/it6Zq8/photo6107064271230838730.jpg)  |  ![screenshots3](https://image.ibb.co/d99Xco/photo6107064271230838731.jpg)  |  ![screenshots4](https://image.ibb.co/mQbOiT/photo6107064271230838733.jpg)
+![screenshots5](https://image.ibb.co/eKNUOT/photo6107064271230838732.jpg)  |
 
-folder database berisi source code python django
+## Video
+[![Olx Clone](https://img.youtube.com/vi/HQNkcRIayQ0/0.jpg)](https://www.youtube.com/watch?v=HQNkcRIayQ0)
 
-menjalankankannya menggunakan virtual env
-kemudian mengaktifkan virtual env
-setelah itu masuk ke dalam folder database
-kemudian melakukan run dengan cara python manage.py runserver
+## Powered by
 
+![https://dumbways.id](https://avatars2.githubusercontent.com/u/34464790?s=200&v=4)
 
+![https://arkademy.com](http://www.arkademy.com/asset/images/ico_logo.png)
 
+Author: Qori Haidir Alam
