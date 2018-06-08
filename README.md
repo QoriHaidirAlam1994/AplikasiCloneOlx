@@ -37,7 +37,7 @@ then activate the virtual env
 after that go into the database folder
 then run it by way of python manage.py runserver
 
-**Mobile Frontend (React Native):**
+##Mobile Frontend (React Native):##
 
 Make sure you already installed React Native and have emulator or real device running. If not visit this page https://facebook.github.io/react-native/docs/getting-started.html
 ```
@@ -53,7 +53,13 @@ $ npm start
 ![screenshots5](https://image.ibb.co/eKNUOT/photo6107064271230838732.jpg)  |
 
 ## Video
+
+## Video How to use Redux on App ##
+[![Olx Clone](https://img.youtube.com/vi/23wI3JU_8-E/0.jpg)](https://www.youtube.com/watch?v=23wI3JU_8-E)
+
+## Video run app on android mobile ##
 [![Olx Clone](https://img.youtube.com/vi/HQNkcRIayQ0/0.jpg)](https://www.youtube.com/watch?v=HQNkcRIayQ0)
+
 
 ## Powered by
 
